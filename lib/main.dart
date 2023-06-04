@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:music_app/screens/home/home_view.dart';
 import 'package:music_app/utils/colors.dart';
+
+import 'screens/main/main_view.dart';
 
 void main() {
   runApp(const MainApp());
@@ -22,6 +23,6 @@ class MainApp extends StatelessWidget {
             ),
           ),
         ),
-        home: const HomeView());
+        home: const MainView());
   }
 }
